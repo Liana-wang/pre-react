@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useState, useMemo } from 'react'
 
 export default function UseMemoPage() {
     const [count, setCount] = useState(0)
