@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+// import SetStatePage from './pages/SetStatePage';
+import FunctionComponent from './pages/FunctionComponent';
 import './App.css';
+import HomePage from './pages/HomePage';
+import ReduxPage from './pages/ReduxPage';
+import ReactReduxPage from './pages/ReactReduxPage';
+import RouterPage from './pages/RouterPage';
+import UseMemoPage from './pages/UseMemoPage';
+import UseCallbackPage from './pages/UseCallbackPage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            {/* <SetStatePage /> */}
+            <FunctionComponent />
+            <HomePage />
+            <ReduxPage />
+            <ReactReduxPage />
+            <RouterPage />
+            <UseMemoPage />
+            <UseCallbackPage />
+        </div>
+    );
 }
 
 export default App;
