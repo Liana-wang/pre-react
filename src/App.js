@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             {/* <SetStatePage /> */}
             <FunctionComponent />
-            <HomePage />
+            {/* <HomePage /> */}
             <ReduxPage />
             <ReactReduxPage />
             <RouterPage />
